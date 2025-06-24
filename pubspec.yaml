@@ -1,0 +1,20 @@
+name: local_services_app
+description: Flutter app for local service booking
+version: 1.0.0
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.30.0
+  firebase_auth: ^4.17.0
+  cloud_firestore: ^4.16.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
